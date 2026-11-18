@@ -1,0 +1,33 @@
+# Build artifacts & binaries
+bin/
+*.exe
+*.dll
+*.o
+*.obj
+*.pdb
+
+# Runtime logs
+*.log
+
+# Agent, benchmark & workspace metadata
+.agents/
+.codegraph/
+.benchmarks/
+docs/maestro/
+ORIGINAL_REQUEST.md
+PROJECT.md
+TEST_INFRA.md
+TEST_READY.md
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment & OS files
+.env
+.env.*
+.DS_Store
+Thumbs.db
